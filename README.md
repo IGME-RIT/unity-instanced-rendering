@@ -1,11 +1,11 @@
 Documentation Author: Alexander Amling
 
-# Unity Instance Rendering
+# Unity Instanced Rendering
 *Unity Compute Shaders Part 1*
 
-The aim of instance rendering is to reduce the number of draw calls by rendering all of the copies of a single mesh at the same time, each with their own respective transform.
+The aim of instanced rendering is to reduce the number of draw calls by rendering all of the copies of a single mesh at the same time, each with their own respective transform.
 
-At its simplest, instance rendering in Unity is fairly straightforward. The function Graphics.DrawMeshInstanced() Calls for a fairly simple list of parameters: 
+At its simplest, instanced rendering in Unity is fairly straightforward. The function Graphics.DrawMeshInstanced() Calls for a fairly simple list of parameters: 
 
     - Any mesh, 
     - The index of the submesh (which for our needs is 0), 
