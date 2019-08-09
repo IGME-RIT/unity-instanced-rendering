@@ -2,6 +2,7 @@ Documentation Author: Alexander Amling
 
 # Unity Instanced Rendering
 *Unity Compute Shaders Part 1*
+[part 2] (https://github.com/IGME-RIT/unity-indirect-instanced-rendering)
 
 The aim of instanced rendering is to reduce the number of draw calls by rendering all of the copies of a single mesh at the same time, each with their own respective transform.
 
