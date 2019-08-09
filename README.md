@@ -1,7 +1,7 @@
 Documentation Author: Alexander Amling
 
 # Unity Instance Rendering
-* Unity Compute Shaders Part 1*
+*Unity Compute Shaders Part 1
 
 The aim of instance rendering is to reduce the number of draw calls by rendering all of the copies of a single mesh at the same time, each with their own respective transform.
 
