@@ -6,11 +6,11 @@ Documentation Author: Alexander Amling
 The aim of instance rendering is to reduce the number of draw calls by rendering all of the copies of a single mesh at the same time, each with their own respective transform.
 
 At its simplest, instance rendering in Unity is fairly straightforward. The function Graphics.DrawMeshInstanced() Calls for a fairly simple list of parameters: 
-    Any mesh, 
-    The index of the submesh (which for our needs is 0), 
-    A material to use (any material with "Enable GPU Instancing" checked works)
-    An array of 4x4 Matrix transforms
-    A count of the instances we are rendering
+    * Any mesh, 
+    * The index of the submesh (which for our needs is 0), 
+    * A material to use (any material with "Enable GPU Instancing" checked works)
+    * An array of 4x4 Matrix transforms
+    * A count of the instances we are rendering
 
 Our code calls a simple method GenerateTransforms() to populate the matrix array with random positions rotations and scales, then makes the render each update.
 
